@@ -2,16 +2,13 @@
     background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/mainmenu.png") !important;
 }
 
-
 #pagehead .option .label {
     background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/menu_label.png") !important;
 }
 
-/*
 #pagehead .option .menubox.old dl dd a {
     background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/menu2.png") !important;
 }
-*/
 
 #pagehead .option .menubox:not(.old) dl dd a {
     background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/menu3.png") !important;
@@ -154,4 +151,16 @@ ul.mydesk-submenu li.shigoto a {
 .mydesk-submenus ul.mydesk-submenu-links.lesson li a {
     background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/unit.png") !important;
 }
+
+.button-event-megaphone, .button-event-appeal,.button-event-appeal50 {
+    background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/btn_appeal.png") !important;
+}
+
+.button-event-help,.button-event-help50 {
+    background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/btn_help.png") !important;
+}
+
+.mydesk-menu li a.battle {
+    background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/live.png") !important;
+} 
 /* background-image: url("https://raw.githubusercontent.com/HatsanK/KRideM/moz-ext/images/.png") !important; */
