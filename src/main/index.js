@@ -8,6 +8,8 @@ const path = require('path')
 const url = require('url')
 const fs = require('fs')
 
+const defaultMenu = require('electron-default-menu')
+
 var css = require("./custom.css");
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -29,12 +31,16 @@ function createWindow () {
   // Open the DevTools.
   //mainWindow.webContents.openDevTools()
 
+  electron.Menu.setApplicationMenu(electron.Menu.buildFromTemplate(defaultMenu(electron.app, electron.shell)));
+
   mainWindow.on('closed', function () {
     mainWindow = null
   })
+  
 }
 
 app.on('ready', createWindow)
+
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
